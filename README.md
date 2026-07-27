@@ -4,7 +4,9 @@ Welcome, and thanks for taking the time. This exercise is designed to mirror how
 
 You will work against one of the provided Jira stories for this application (a Venmo-style peer-to-peer payments app).
 
-> **Tools & AI — use whatever helps you.** You're free to use any tools you like to complete this assessment, including AI assistants (ChatGPT, Claude, Copilot, Cursor, AI-powered QA tools, etc.). We use these tools too. The only ask: **if you use AI, include a short `AI-USAGE.md` in your fork** explaining *how* and *where* you used it (e.g. "generated the first draft of the Playwright spec," "drafted the bug report wording," "brainstormed edge cases"). We're interested in your judgment about when to lean on AI and how you verify its output — not in whether you used it.
+> **Tools & AI — use whatever helps you.** You're free to use any tools you like to complete this assessment, including AI assistants (ChatGPT, Claude, Copilot, Cursor, AI-powered QA tools, etc.). We use these tools too. The only ask: **if you use AI, include a short `AI-USAGE.md` in your repository** explaining *how* and *where* you used it (e.g. "generated the first draft of the Playwright spec," "drafted the bug report wording," "brainstormed edge cases"). We're interested in your judgment about when to lean on AI and how you verify its output — not in whether you used it.
+
+> **Getting started — make your own copy.** Click the green **Use this template → Create a new repository** button at the top of this repo to create your own copy under your GitHub account (please **don't fork**). Clone your new repository, commit your work there, and share that link when you submit.
 
 ---
 
@@ -178,11 +180,11 @@ We're looking for: a clear, reproducible report; correct severity/priority judgm
 
 ## Deliverables
 
-**Submit a fork of this repository** with all your changes committed. Share the link to your fork when you're done. Your fork should contain:
+**Submit your own copy of this repository** — created via **Use this template** (see *Getting started* above), with all your changes committed. Share the link to your repository when you're done. It should contain:
 
 1. **Automated tests** in the **`e2e/` folder** at the project root, runnable via `yarn test:e2e`, with a short README covering install/run commands (see `e2e/README.md`).
 2. **Screenshots as evidence** of each step (happy path + edge/fail states), committed into the repo (e.g. `e2e/screenshots/`).
-3. **The GitHub Actions workflow working**, if you attempt the bonus — the run should be visible (green/red) in the Actions tab of your fork.
+3. **The GitHub Actions workflow working**, if you attempt the bonus — the run should be visible (green/red) in the Actions tab of your repository.
 4. **Story analysis written into the story file itself** — your `## QA Annotations` section inside `instructions/jira-ticket.md` (or `jira-ticket-auth.md`).
 5. A **bug ticket** at `instructions/submission/bug-report.md` for the defect your tests uncover (see section 6).
 6. The supporting writeups under `instructions/submission/`:
